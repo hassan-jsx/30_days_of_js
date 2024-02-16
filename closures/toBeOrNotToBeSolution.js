@@ -37,6 +37,7 @@ var expect = function (val) {
         notToBe: function (value) {
             if (val !== value) {
                 return true;
+                
             }
             throw new Error('Equal');
         },
